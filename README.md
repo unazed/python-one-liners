@@ -1,7 +1,7 @@
 # python-one-liners
 trust me i haven't run out of ideas
 
-synopsis of the fundamentals regarding one-liners in an imperative language:
+__synopsis of the fundamentals regarding one-liners in an imperative language:__
 
 globals() is the variable space where within you can set variables because it's just a dictionary.
 
