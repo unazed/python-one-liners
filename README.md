@@ -49,3 +49,7 @@ my_count = 0
 while my_count < 5:
 	my_count += 1
 ```
+
+
+**protip:** the scripts posted have no intention of fully working to standardized expectations... so don't scrutinize them.
+**post protip:** i code purely from the point of view i've described above, i don't write pretty (or thereabouts) code first and translate. that's no fun.
