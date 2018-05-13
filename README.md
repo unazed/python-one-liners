@@ -37,8 +37,8 @@ although you could integrate the addition possibly
 
 ```py
 while [
-  globals().__setitem__("my_count", 0),
-  globals().__getitem__("my_count", False)
+  globals().__setitem__("my_count", 0) if "my_count" not in globals() else 0,
+  globals().get("my_count", False)
 ][1] < 5: my_count += 1
 ```
 
