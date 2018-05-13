@@ -28,7 +28,7 @@ while [
   globals().__setitem__("my_count", 0)\  # if my_count doesn't exist, set it to 0. equivalent to `my_count = 0`
     if "my_count" not in globals() else\
   globals().__setitem__("my_count", my_count+1), # if my_count exists, add 1 to it, equivalent to `my_count += 1`
-	globals().get("my_count", False)  # equivalent to just `my_count`, which returns the variable else False if it doesn't exist
+  globals().get("my_count", False)  # equivalent to just `my_count`, which returns the variable else False if it doesn't exist
 ][1] < 5:  # refers to the 2nd item in the list, which is the `my_count` variable, basically `while my_count < 5: pass`
 	pass
 ```
