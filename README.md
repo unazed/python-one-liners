@@ -25,8 +25,8 @@ variable e.g.:
 
 ```py
 while [
-	globals().__setitem__("my_count", 0)  # if my_count doesn't exist, set it to 0. equivalent to `my_count = 0`
-  	if "my_count" not in globals() else
+  globals().__setitem__("my_count", 0)\  # if my_count doesn't exist, set it to 0. equivalent to `my_count = 0`
+    if "my_count" not in globals() else\
   globals().__setitem__("my_count", my_count+1), # if my_count exists, add 1 to it, equivalent to `my_count += 1`
 	globals().get("my_count", False)  # equivalent to just `my_count`, which returns the variable else False if it doesn't exist
 ][1] < 5:  # refers to the 2nd item in the list, which is the `my_count` variable, basically `while my_count < 5: pass`
@@ -37,7 +37,7 @@ although you could integrate the addition possibly
 
 ```py
 while [
-	globals().__setitem__("my_count", 0),
+  globals().__setitem__("my_count", 0),
   globals().__getitem__("my_count", False)
 ][1] < 5: my_count += 1
 ```
