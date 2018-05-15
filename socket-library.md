@@ -1,3 +1,21 @@
+edit: cba putting this at the bottom because i forgot this was the main point of this library, implementing classes can either be done by the `types` module in python 2 or `type(...)` function in python 3 as such:
+
+```py
+MyClass = type("MyClass", (object,), {
+  "__init__":
+    lambda self, *args: print("hello, world!"),
+  "__call__":
+    lambda self, *args: print("fuck my world") 
+})
+
+>>> a = MyClass("tbh")
+"hello, world!"
+>>> a("kms")
+"fuck my world"
+```
+
+btw always remember to be platform-agnostic by inheriting from `object` regardless of your usecase, that's for high iq people.
+
 this took a bit too long to make mainly because of the `receive_all` function which is actually a bit autistic. here it is:
 
 ```py
