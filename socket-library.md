@@ -28,12 +28,12 @@ this took a bit too long to make mainly because of the `receive_all` function wh
 
 here's what it essentially does:
 
-i. you call receive_all
-ii. it instantiates the `_timeout` local function
-iii. it creates the `_inner_receive_all` local function
-iv. that creates the `_autistic_receive_all` function which is the actual meat of the function
-v. this `_autistic_receive_all` function uses recursion to retrieve the data segment by segment
-vi. an alarm is set and the `_inner_receive_all`'s inner `_autistic_receive_all` is called with `self` and `ssize`, whereupon the signal handler will raise a `ZeroDivisionError` after `signal_timeout` seconds have passed, and this will be caught by `_autistic_receive_all`'s `except: ...` clause which returns the `_buffer`, effectively passing it down to the `_timeout` function and then returning it to the original caller by retrieving the `[-1][-2]`'th index of the massive statement tuple
+i) you call receive_all
+ii) it instantiates the `_timeout` local function
+iii) it creates the `_inner_receive_all` local function
+iv) that creates the `_autistic_receive_all` function which is the actual meat of the function
+v) this `_autistic_receive_all` function uses recursion to retrieve the data segment by segment
+vi) an alarm is set and the `_inner_receive_all`'s inner `_autistic_receive_all` is called with `self` and `ssize`, whereupon the signal handler will raise a `ZeroDivisionError` after `signal_timeout` seconds have passed, and this will be caught by `_autistic_receive_all`'s `except: ...` clause which returns the `_buffer`, effectively passing it down to the `_timeout` function and then returning it to the original caller by retrieving the `[-1][-2]`'th index of the massive statement tuple
 
 NOTES:
 - this method only works for Linux (AFAIK) due to the usage of signals, i implemented it with signals because i just didn't want to use threading, fuck that.
