@@ -55,4 +55,4 @@ while my_count < 5:
 
 **post protip:** i code purely from the point of view i've described above, i don't write pretty (or thereabouts) code first and translate. that's no fun.
 
-**lmao protip:** `dict.__setitem__` ond `dict.__setattr__` (aliased by the higher order `setattr(...)`) can in some cases be used interchangeably however there are trivial differences between them and can be easily confused.
+**lmao protip:** `__setitem__` and `__setattr__` (aliased by the higher order `setattr(...)`) are a confusing pair, however when i use `setattr(self, ..., ...)` and `globals().__setitem__(..., ...)` it's not hard to see that they cannot be used interchangeably
