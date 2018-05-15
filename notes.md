@@ -9,3 +9,4 @@
 - this doesn't make you a better programmer more than it would make you higher iq
 - there's something interesting to hearing that something seemingly large or medium-sized can be condensed to one line
 - i'm starting to contemplate whether what i'm doing isn't *truly* one-lines, surely a one liner would mean that if you tried to expand it to anything more than one line (without bloating it, same bytecode) you wouldn't be able to
+- can i get onto the core dev. team yet?
