@@ -31,3 +31,4 @@ smh
 - c is better than python ngl
 - #ccompilerinoneline
 - i conjecture that ∀code ∃line ∈ python: (|line| = 1) 
+- it appears that some people don't like short code
