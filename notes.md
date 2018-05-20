@@ -32,3 +32,4 @@ smh
 - #ccompilerinoneline
 - i conjecture that ∀code ∃line ∈ python: (|line| = 1) 
 - it appears that some people don't like short code
+- running out of ideas on a project i made because i was running out of ideas
