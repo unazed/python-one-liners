@@ -1,0 +1,1 @@
+print(': '.join((input("8ball: "),__import__("random").choice(("You may rely on it", "You mayn't rely on it", "Without a doubt", "I'll give you the benefit of the doubt", "Try again", "Yes", "No", "I don't think so", "I think so", "Is she white?")))))
