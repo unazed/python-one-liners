@@ -1,3 +1,3 @@
->password_generator
+\>password_generator
 more like
->shit
+\>shit
