@@ -30,7 +30,7 @@ caused me to have some issues where all the rows of that column that the user se
 smh
 - c is better than python ngl
 - #ccompilerinoneline
-- i conjecture that ∀code ∃line ∈ python: (|line| = 1) 
+- i conjecture that ∀code ∃line ∈ python: (|line| = 1 AND line = code) 
 - it appears that some people don't like short code
 - running out of ideas on a project i made because i was running out of ideas
 - this shit actually takes cold dead blood and hard sweat to produce 
