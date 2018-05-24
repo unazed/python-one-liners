@@ -2,6 +2,8 @@ unfinished however it can store variables, allow for extension and do other cool
 
 turning out to be harder than i thought to compress a nicer `parse_instruction` function into one line, purely because lambdas can't force returns without some fuckery which i have yet to discover
 
+(i know i'm going back on my word by building from the top -> down, but i honestly tried doing this in one line without this sort of high level knowledge and it's simply hideous looking hot shit that doesn't work)
+
 ```py
 import sys
 
