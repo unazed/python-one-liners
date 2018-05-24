@@ -37,3 +37,4 @@ smh
 - i've noticed that the socket library shit actually challenged me which is a nice sign for me because that means i still have shit to be learning
 - coffee doesn't help you write these one liners, a good breath and active mind does though at 2am does though.
 - i wonder when i will finally find a project where i can include as many advanced concepts as possible, thinking of trampolining, run-time/dynamic code execution via `eval`, `exec` or `compile`, some interesting applications of recursion, using python's more unused features in a **nut**shell
+- i found out you can't intermix two art styles and expect them to coalign functionally.
