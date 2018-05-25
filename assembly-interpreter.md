@@ -1,4 +1,4 @@
-status: unfinished, with strange errors; but i don't care to extend on it anymore
+status: unfinished, with strange errors which'd take hours to debug; therefore i'm giving this up at its current state.
 
 old: unfinished however it can store variables, allow for extension and do other cool things ig.
 
