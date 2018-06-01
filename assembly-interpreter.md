@@ -1,5 +1,5 @@
 status: unfinished, with strange errors which'd take hours to debug; therefore i'm giving this up at its current state.
-update status: however being developed in full-form over (here)[https://github.com/unazed/T.A.I.P.]
+update status: however being developed in full-form over [here](https://github.com/unazed/T.A.I.P.)
 old: unfinished however it can store variables, allow for extension and do other cool things ig.
 
 turning out to be harder than i thought to compress a nicer `parse_instruction` function into one line, purely because lambdas can't force returns without some fuckery which i have yet to discover
